@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLIGHT BOOKING</title>
+</head>
+<body>
+    <form>
+        
+        <fieldset>
+            <center>
+            <h1>FLIGHT BOOKING</h1>
+            <!-- <label> SEX: </label>  -->
+            <input type="radio" id ="travel" name="travel" value="oneway">One Way
+            <input type="radio" id ="travel" name="travel" value="roundtrip">Round Trip
+            <input type="radio" id ="travel" name="travel" value="multicity">Multi City <br><br>
+
+            <label>From:</label>
+            <input type="text" maxlength="20">
+            <label>Date(dd/mm/yy):</label>
+            <input type="date" > <br><br>
+
+            <label>To:</label>
+            <input type="text" maxlength="20">
+            <label>Date(dd/mm/yy):</label>
+            <input type="date" value=""> 
+
+            <br><br>
+            <label> Adult:</label>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <label> Child:</label>
+            <select>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <label> Infant:</label>
+            <select>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+
+            <br><br>
+            <label> Class:</label>
+            <select>
+                <option value="First">First</option>
+                <option value="Business">Business</option>
+                <option value="Economy">Economy</option>
+            </select>
+
+            <br><br>
+            <input type="button" value="Search">
+            <input type="button" value="Cancel">
+            
+        </fieldset>
+</form>
+</body>
+</html>
